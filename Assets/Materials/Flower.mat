@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Flower
-  m_Shader: {fileID: -6465566751694194690, guid: 1486b45aeee11a24bb11b6171dba9308,
+  m_Shader: {fileID: -6465566751694194690, guid: 11e6a4e01207763458e15f9fd84671b7,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -67,7 +67,7 @@ Material:
     - _ShadowColor: {r: 0.16826865, g: 0.15913136, b: 0.2264151, a: 1}
     - _ShadowPaternColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowTiling: {r: 5, g: 5, b: 0, a: 0}
-    - _Tint: {r: 0.9528302, g: 0.6067551, b: 0.76221305, a: 1}
+    - _Tint: {r: 0.9811321, g: 0.7913849, b: 0.87547743, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &3195182030235059530
 MonoBehaviour:

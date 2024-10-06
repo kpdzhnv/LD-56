@@ -36,6 +36,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 28310ffbbf12539488a77f3684044c00, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Shadow2Texture2D:
+        m_Texture: {fileID: 2800000, guid: ecda8d5273f9c20409130fd23401b061, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ShadowTexture2D:
         m_Texture: {fileID: 2800000, guid: c5f2c068ddfd15540827542f5dc93cc1, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -62,6 +66,7 @@ Material:
     - _ShadowStepDelta: 0.01
     - _UseAlpaClipping: 0
     - _UseFresnel: 1
+    - _UseWind: 0
     m_Colors:
     - _MainColor: {r: 1, g: 0, b: 0, a: 1}
     - _ShadowColor: {r: 0.16826865, g: 0.15913136, b: 0.2264151, a: 1}

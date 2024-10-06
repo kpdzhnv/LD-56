@@ -24,12 +24,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AlphaClippingMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTexture2D:
         m_Texture: {fileID: 2800000, guid: c35738ddcfff42c4fab451a9c84aed16, type: 3}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_90e2831bde9c4160b9e272ffef015bf6_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 28310ffbbf12539488a77f3684044c00, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Shadow2Texture2D:
+        m_Texture: {fileID: 2800000, guid: ecda8d5273f9c20409130fd23401b061, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTexture2D:
@@ -56,13 +64,15 @@ Material:
     - _Shadow2Step: 0.2
     - _ShadowStep: 0.5
     - _ShadowStepDelta: 0.01
+    - _UseAlpaClipping: 0
     - _UseFresnel: 1
+    - _UseWind: 0
     m_Colors:
     - _MainColor: {r: 1, g: 0, b: 0, a: 1}
     - _ShadowColor: {r: 0.16826865, g: 0.15913136, b: 0.2264151, a: 1}
     - _ShadowPaternColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowTiling: {r: 7, g: 7, b: 0, a: 0}
-    - _Tint: {r: 0.92298955, g: 0.8352941, b: 1, a: 0}
+    - _Tint: {r: 1.434274, g: 0.99608064, b: 2.5442061, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3195182030235059530
 MonoBehaviour:
